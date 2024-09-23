@@ -1,7 +1,9 @@
+import StudyGuideScreen from './StudyGuideScreen.png';
+
 const projects = [
     {
        title: 'Study Guide',
-       image: '',
+       image: {StudyGuideScreen},
        deployment: '',
        repo: ''
     },

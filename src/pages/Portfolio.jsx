@@ -1,4 +1,4 @@
-export default function ProjectList({ projects }) {
+export default function Portfolio({ projects }) {
     return (
         <div className="container">
             <h1>My Projects:</h1>
@@ -12,5 +12,5 @@ export default function ProjectList({ projects }) {
                 ))}
             </ul>
         </div>
-    );
+    )
 }
