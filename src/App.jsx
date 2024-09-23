@@ -7,12 +7,10 @@ function App() {
     <>
       <header>
       <Header />
-      </header>
-      <body>      
+      </header>      
       <main>
          <Outlet />
       </main>
-      </body>
       <Footer />   
     </>
   );

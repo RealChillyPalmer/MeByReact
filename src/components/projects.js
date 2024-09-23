@@ -1,4 +1,5 @@
-import StudyGuideScreen from './StudyGuideScreen.png';
+import StudyGuideScreen from '../assets/images/StudyGuideScreen.png'
+
 
 const projects = [
     {
