@@ -5,6 +5,19 @@
   text-align: center;
 }
 
+
+.primary {
+  color: #48BE97
+}
+
+.secondary {
+  color: #7903af
+}
+
+.tertiary {
+  color: rgb(232 222 195)
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +53,6 @@
 .read-the-docs {
   color: #888;
 }
+
+
+

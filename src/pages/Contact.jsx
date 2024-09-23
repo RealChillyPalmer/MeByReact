@@ -3,8 +3,11 @@ const styles = {
         display: 'flex',
         justifyContent: 'center'
     },
+    title: {
+        padding: '30px 0 0 30px'
+    },
     form: {
-        width: '70rem',
+        width: '60rem',
         border: '2px solid black',
         padding: '20px'
     },
@@ -13,14 +16,14 @@ const styles = {
     },
     sub: {
         display: 'flex',
-        justifyContent: 'center'
+        justifyContent: 'center',
         }
 }
 
 export default function Contact() {
     return (
         <div>
-            <h2>Contact Me</h2>
+            <h2 style={styles.title}>Contact Me: </h2>
                 <section style={styles.section}>
                 <form style={styles.form}>
                     <div class="form-group" style={styles.inputs}>
@@ -41,7 +44,7 @@ export default function Contact() {
                         <textarea class="form-control" id="message" rows="3" />
                     </div>
                     <div style={styles.sub}>
-                    <button type="submit" class="btn btn-secondary" style={styles.sub}>Submit</button>
+                    <button type="button" style={styles.sub}>Submit</button>
                     </div>
                 </form>
                 </section>

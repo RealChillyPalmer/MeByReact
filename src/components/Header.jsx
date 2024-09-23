@@ -7,13 +7,13 @@ const styles = {
       height: '150px',
       padding: '0 0 2px 0 ',
       display: 'flex',
-      justifyContent: 'space-between',
-      
+      justifyContent: 'space-between',      
   },
   name: {
     display:'flex',
     alignItems: 'flex-start',
-    maxHeight: '100%'
+    padding: '20px',
+    maxHeight: '100%',
   },
   nav: {
     display: 'flex',
@@ -27,7 +27,7 @@ const navbar = Nav();
 function Header() {
     return ( 
     <header style={styles.habitat}>
-      <h1 style ={styles.name}>Chris Crumbley</h1>;
+      <h1 style ={styles.name}>Chris Crumbley</h1>
       <nav style={styles.nav}>{navbar}</nav>
     </header>
     );

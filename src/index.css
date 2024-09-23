@@ -1,3 +1,4 @@
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,18 +16,36 @@
 
 a {
   font-weight: 500;
+  background-color: #48BE97;
   color: #7903af;
   text-decoration: inherit;
   display:flex;
   padding: 10px 3px;
   margin: 4px;
-  border: 2px solid black;
+  border: 2px solid #7903af;
   
+}
+  
+.rootroot {
+    background-color: #48BE97;
+}
 
+main {
+  color: rgb(232 222 195);
 }
+
 a:hover {
-  color: #e5f2f4;
+  color: rgb(232 222 195);
+  border: 3px solid #7903af;
 }
+
+.icons:hover {
+  background-color: #7903af;
+  transform: scale(1.4);
+  box-shadow: 0 0 15px #48BE97;
+  border-radius: 10px;
+}
+
 
 body {
   margin: 0;
@@ -38,12 +57,23 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-shadow: 3px 4px 2px #7903af; 
+}
+
+#h1header {
+  text-shadow: 1px 3px 2px #7903af; 
 }
 
 header {
-  background-color: #48BE97;
+  background-color:rgb(232 222 195);
   margin: 0 0 20px 0;
+  color: #48BE97;
+  background-image: url("./assets/images/rain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
 
 button {
   border-radius: 8px;
@@ -69,11 +99,11 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
+  /* a:hover {
     color: #747bff;
   }
   button {
     background-color: #f9f9f9;
-  }
+  } */
 
 }

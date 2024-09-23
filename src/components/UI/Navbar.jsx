@@ -11,7 +11,7 @@ fluid: {
 },
 buttonNav: {
     display: 'flex',
-    background: '#48BE97',
+    backgroundColor: '#48BE97',
     minHeight: 40,
     lineHeight: 3.5,
     fontSize: '1.1rem',
@@ -25,7 +25,8 @@ buttonNav: {
 ul: {
     width: '100%',
     display: 'flex',
-    justifyContent: 'flex-end',
+    flexDirection: 'row',
+    gap: '10px',
     margin: '0 0 2px 0'
 }
 
@@ -38,7 +39,7 @@ export default function Nav({ links }) {
         <div className="container-fluid" style={styles.fluid}>
           <div className="collapse navbar-collapse" id="navbarSupportedContent" style={styles.fullWidth}>
             <ul style={styles.ul}>
-              {links.map((link) => link )}           
+              {links.map((link) => link )}     
             </ul>
           </div>
         </div>
