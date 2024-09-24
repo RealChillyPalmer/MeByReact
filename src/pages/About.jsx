@@ -1,19 +1,24 @@
+const styles = {
+    peez: {
+        color: '#7903af',
+        fontSize: '23px',
+        padding: '0px'
+    },
+    aboutTitles: {
+        color: 'rgb(232 222 195)',
+        fontSize: '48px',
+        textAlign: 'Center',
+        margin: '0 0 30px 0'
+    }
+}
+
 export default function About() {
-   
+  
     return (
-        <div>
-            <p>
-                Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-                molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-                magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-                efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-                mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-                posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-                faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-                ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-                dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-                conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-                rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+        <div class='container'>
+            <h2 style={styles.aboutTitles}>About Me</h2>
+            <p style={styles.peez}>
+                Welcome, welcome and thanks for stopping by. My name is Chris Crumbley and I am currently a student in the UCF Coding bootcamp. I am now 35 years old and I have decided to take this class because I have always had an interest in coding, but have never had the opportunity to truly explore what opportunities are available. Thankfully, the stars have aligned and I have been able to give this a shot. I look forward to seeing my true potential in this field and beginning a new career and future. Feel free to click around, my personal pages are down below. 
             </p>
         </div>
     );

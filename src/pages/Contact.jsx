@@ -4,50 +4,52 @@ const styles = {
         justifyContent: 'center'
     },
     title: {
-        padding: '30px 0 0 30px'
+        padding: '30px 0 0 30px',
+        color: 'rgb(232 222 195)'
     },
     form: {
         width: '60rem',
-        border: '2px solid black',
+        border: '2px solid rgb(232 222 195)',
         padding: '20px'
     },
     inputs: {
-        margin: '10px'
+        margin: '10px',
+        color: '#7903af',
     },
     sub: {
         display: 'flex',
         justifyContent: 'center',
-        }
+    }
 }
 
 export default function Contact() {
     return (
         <div>
             <h2 style={styles.title}>Contact Me: </h2>
-                <section style={styles.section}>
+            <section style={styles.section}>
                 <form style={styles.form}>
                     <div class="form-group" style={styles.inputs}>
-                    <label for="name">
-                        Name:</label>
+                        <label for="name">
+                            Name:</label>
                         <input type="text" class="form-control" id="name" />
-                    
+
                     </div>
                     <div class="form-group" style={styles.inputs}>
-                    <label for="email">
-                        email:</label>
+                        <label for="email">
+                            email:</label>
                         <input type="email" class="form-control" id="email" placeholder='name@example.com' />
-                        
+
                     </div>
                     <div class="form-group" style={styles.inputs}>
-                    <label for="message">
-                        Message:</label>
+                        <label for="message">
+                            Message:</label>
                         <textarea class="form-control" id="message" rows="3" />
                     </div>
                     <div style={styles.sub}>
-                    <button type="button" style={styles.sub}>Submit</button>
+                        <button type="button" style={styles.sub}>Submit</button>
                     </div>
                 </form>
-                </section>
+            </section>
         </div>
     );
 }

@@ -31,7 +31,7 @@ a {
 }
 
 main {
-  color: rgb(232 222 195);
+  color: hwb(44 76% 9% / 0);
 }
 
 a:hover {
@@ -64,6 +64,10 @@ h1 {
   text-shadow: 1px 3px 2px #7903af; 
 }
 
+h2 {
+  text-shadow: 3px 4px 2px #7903af;
+}
+
 header {
   background-color:rgb(232 222 195);
   margin: 0 0 20px 0;
@@ -73,7 +77,16 @@ header {
   background-size: cover;
 }
 
+.form-control, textarea {
+  background: rgb(232 222 195);
+}
 
+.form-control:focus {
+  background-color: rgb(232 222 195);
+  border: 2px solid #7903af;
+  box-shadow: none;
+}
+  
 
 button {
   border-radius: 8px;
@@ -82,12 +95,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #7903af;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: rgb(232 222 195);
+  border-width: 2px;
 }
 button:focus,
 button:focus-visible {
